@@ -1,0 +1,1 @@
+# STRIC-Responsive-Web-
