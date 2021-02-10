@@ -199,3 +199,80 @@ header{
 .fa.fa-link{
     color: white;
 }
+
+contact{
+    padding: 31px 0;
+    background-image: url(../img/form.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.contact-title{
+    padding: 50px 0 25px 0;
+}
+.contact-title h2{
+    font-size: 40px;
+    color: white;
+}
+.contact-title p{
+    color: #999999;
+    font-size: 16px;
+    margin: 25px 0;
+}
+.form-main{
+    margin-top: 10px;
+    padding-bottom: 70px;
+}
+.form-control{
+    width: 100%;
+    padding: 25px 20px;
+    margin: 10px 0;
+    background: transparent;
+    outline: none;
+    border: 1px solid #999999;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+}
+.form-control:focus{
+    outline: none;
+    background: transparent;
+}
+.form-control.form-control-text{
+    
+}
+.form-control.form-control-text:focus{
+    border-color: #15a4fa;
+}
+.check{
+margin-right: 10px;
+}
+.form-label{
+    padding: 0;
+    color: white;
+}
+.form-main label{
+    
+}
+.btn.btn-form{
+    padding: 8px 30px;
+    color: #fff;
+    border-radius: 5px;
+    border-color:  #15a4fa;
+    margin: 0;
+}
+}
+.btn.btn-form:focus{
+    border-color:  #15a4fa;
+}
+input[type=text]:focus{
+    border-color: #15a4fa;
+    
+}
+input[type=email]:focus{
+    border-color: #15a4fa;
+    
+}
+
+
