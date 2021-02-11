@@ -1,4 +1,10 @@
+*------------------------------------------------------------------
+    Created By: Abdullah Al Mamun
+    Phone: +880 1756 390880
+    Email: abdullah.mamun2528@gmail.com
+    Location: Dhaka, Bangladesh
 
+-------------------------------------------------------------------*/
 
 *{
     margin: 0;
@@ -274,5 +280,143 @@ input[type=email]:focus{
     border-color: #15a4fa;
     
 }
+
+.copyright-footer{
+    padding: 31px 0;
+}
+.copyright{
+    color: #999999;
+    font-size: 16px;
+    padding: 20px;
+}
+.social{
+    
+}
+.social a i{
+    background-color: #15a4fa;
+    color: white;
+    padding: 20px 20px;
+    margin-right: 2px;
+    font-size: 16px;
+}
+
+
+@media (min-width:0) and (max-width:500px){
+    .banner{
+        background-size: 100vh 100vh;
+    }
+    .banner-title h1 {
+        font-size: 300%;
+    }
+    .banner-title p {
+        font-size: 90%;
+    }
+    .btn{
+        padding: .375rem .75rem;
+        font-size: 100%;
+    }
+    .simple-design h2 {
+        font-size: 150%;
+    }
+    .simple-design p {
+        color: #999999;
+        font-size: 90%;
+        margin: 20px 0;
+        text-align: justify;
+        padding-bottom: 0;
+    }
+    .icon h3 {
+        font-size: 120%;
+    }
+    .icon p {
+        font-size: 90%; 
+    }
+    .gallery-title {
+        padding: 0 15px;
+    }
+    .gallery-title h2 {
+        font-size: 150%;
+    }
+    .gallery-title p {
+        color: #999999;
+        font-size: 90%;
+        padding-top: 4%;
+    }
+    .image {
+        margin: 15px;
+    }
+    .image.image-bottom{
+        margin-bottom: 15px;
+    }
+    .form-main {
+        padding-bottom: 0;
+    }
+    .contact-title {
+        padding: 0;
+    }
+    .contact-title h2 {
+        font-size: 150%;
+
+    }
+    .contact-title p {
+        font-size: 90%;
+    }
+    .form-main label {
+        font-size: 87.5%;
+    }
+    .btn.btn-form {
+        font-size: 87.5%;
+    }
+    .copyright {
+        font-size: 75%;
+        padding: 2% 10px;
+    }
+    .social {
+        padding: 0 10px;
+    }
+    .social a i {
+        padding: 3px 5px;
+        font-size: 75%;
+    }
+}
+
+@media (min-width:500.01px) and (max-width:768px){
+    .banner-title h1 {
+        font-size: 400%;
+    }
+    .banner-title p {
+        font-size: 113%;
+    }
+    .simple-design h2 {
+        font-size: 200%;
+    }
+    .simple-design p {
+        font-size: 113%;
+        padding-bottom: 0;
+ 
+    }
+    .icon h3 {
+        font-size: 150%; 
+    }
+    .icon p {
+        font-size: 113%;
+    }
+    .gallery-title h2 {
+        font-size: 200%;
+    }
+    .image.image-bottom{
+        margin-bottom: 15px;
+    }
+    .image {
+        margin: 15px;
+    }
+}
+@media (min-width:768.01px) and (max-width:1200px){
+    .banner-title h1 {
+        font-size: 550%;
+    }
+}
+
+
 
 
